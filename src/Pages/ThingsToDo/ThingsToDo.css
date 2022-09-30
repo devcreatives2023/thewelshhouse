@@ -1,0 +1,32 @@
+.gallery-content {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+}
+
+/* .content{
+    width: 750px;
+} */
+
+@media only screen and (max-width: 768px) {
+  .things {
+    display: grid;
+    grid-template-columns: 1;
+    margin: 0 auto;
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .gallery-content {
+    display: grid;
+    grid-template-columns: 6fr;
+    margin: 0 auto;
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 60px;
+    width: 100%;
+  }
+}

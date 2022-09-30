@@ -1,0 +1,29 @@
+
+*{
+    padding:0;
+    margin:0;
+    }
+    
+    #slider{
+    margin:50px auto;
+    width:660px;
+    height:330px;
+    padding:5px;
+    position:relative;
+    }
+    .slide{
+    list-style:none;
+    }
+    #slider>li{
+    position:absolute;
+    top:5px;
+    left:5px;
+    right:5px;
+    bottom:5px;
+    
+    }
+
+
+    @media only screen and (max-width: 600px) {
+      
+    }
